@@ -4,7 +4,7 @@
 > Site de desenvolvimento para prática em programação front-end
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Licença](https://img.shields.io/badge/licença-MIT-blue)
+
 
  🚧 **Atenção:** Este site ainda está em desenvolvimento e manutenção.  
 > Algumas seções estão incompletas e não há prazo definido para conclusão total do projeto.
