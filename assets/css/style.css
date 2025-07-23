@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 36px;
+    text-align: center;
+    color: #D93B48;
+    margin-bottom: 30px;
+}
+.row {
+    margin-bottom: 30px;
+}
+body {
+   /*  background-color: #F2F2F2;*/
+    background-image: url("../img/fundo.jpg");
+    padding-bottom: 60px; /* reserva para o footer fixo */
+    font-family: "Inter", sans-serif;
+    height: auto;
+}
+nav.navbar navbar-expand-lg.navbar-light.bg-light:hover{
+    background-color: #D95555;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+header.topo {
+    background-color: #F2F2F2;
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: #fff !important;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    height: 80px;
+}
+
+.logotipo {
+    width: 12.5rem;
+    height: 2.25rem;
+}
+
+.nav-link {
+    margin: 0 20px;
+    color: #000;
+}
+.nave:hover {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+a.nave {
+    text-decoration: none;
+    color: #fff;
+}
+button.btn.btn-danger {
+    color: #fff;
+    background-color: #D93B48 !important;
+}
+.button.btn.btn-danger:hover {
+    background-color: #fff;
+    color: #000;
+}
+.nav-link:hover {
+    background-color: #D95555;
+    color: white !important;
+    border-radius: 5px;
+    border-bottom: 1px solid goldenrod;
+}
+
+a.nav-link.active {
+    background-color: #D95555 !important;
+    color: #F2F2F2 !important;
+    border-radius: 5px;
+    border-bottom: 1px solid goldenrod;
+}
+
+
+.banner {
+    color: #260104;
+    font-size: 16px;
+    padding: 60px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #D95555;
+    margin-bottom: 30px;
+}
+
+.texto_banner {
+    font-size: 18px;
+}
+
+.texto {
+    color: #D95555;
+}
+
+.btn-danger,
+.btn-warning {
+    margin-top: 50px;
+    border: 2px solid lightgray;
+    font-size: 12px;
+}
+
+.floating-image {
+    position: relative;
+    animation: floatUpDown 4s ease-in-out infinite;
+}
+img.logo.img-fluid {
+    border-radius: 30px 50px 60px 70px;
+}
+.img-ajustada {
+    width: 100%;
+    max-width: 270px;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-icon {
+    width: 32px;
+    height: 32px;
+    filter: invert(100%);
+}
+
+
+img.escritorio {
+    padding: 20px;
+    margin-bottom: 70px;
+    border-radius: 80px 20px 80px 20px;
+
+}
+img.serviço {
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 80px 20px 80px 20px;
+    margin-top: 75px;
+}
+section.container.empresa.mt-5 {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 50px;
+    border-bottom: 1px solid goldenrod;
+}
+
+.empresa_texto h1 {
+    font-size: 18px;
+}
+
+.empresa_texto {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+section.container.ajuda {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+texto_ajuda {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.paragrafo_ajuda {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.img_produtos {
+    width: 350px;
+}
+
+.paragrafo_ajuda_texto {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+/*  SITE DE PRODUTOS */
+div.container-fluid.equipamento {
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    margin-top: 100px;
+}
+
+
+
+
+@keyframes floatUpDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+
+/* footer */
+/* Garante que a altura ocupe 100% da viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/****/
+
+div.container-fluid.leitor{
+    background-color: transparent;
+}
+/* RESET BÁSICO */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER PRINCIPAL DO SLIDER */
+.swiper {
+    width: 100%;
+    padding: 20px;
+}
+
+/* SLIDES PADRÕES */
+.swiper-slide {
+    background-color: transparent;
+    text-align: center;
+    font-size: 18px;
+    line-height: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 3px solid #F2D8D8;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ESTILO DO TEXTO NO SLIDE */
+.swiper-slide h6 {
+    font-size: 20px;
+}
+
+/* EFEITO HOVER PADRÃO */
+.swiper-slide:hover {
+    border: 0;
+    background-color: #D93B48;
+    color: #fff;
+}
+
+.swiper-slide:hover h6,
+.swiper-slide:hover a {
+    color: #fff;
+}
+
+/* SLIDE TIPO FORNECEDOR (COM TAMANHO DIFERENCIADO) */
+.swiper-slide.fornecedor {
+    width: 450px;
+    height: 250px;
+}
+
+/* HOVER DO SLIDE FORNECEDOR (FUNDO CLARO, COR DE TEXTO ESCURA PARA CONTRASTE) */
+.swiper-slide.fornecedor:hover {
+    border: 0;
+    background-color: #F2D8D8;
+    color: #3D3E40;
+}
+
+.swiper-slide.fornecedor:hover h6,
+.swiper-slide.fornecedor:hover a {
+    color: #3D3E40;
+}
+
+/* NAVEGAÇÃO DOS BOTÕES SWIPER */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #3D3E40;
+}
+
+/* ENVOLVE TODO O CONTEÚDO + FOOTER */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* FORNECEDOR */
+
+/* Ocupa o espaço disponível */
+main {
+    flex: 1;
+}
+section.container-fluid{
+    margin-bottom: -47px;
+}
+/* Estilização do footer */
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+a.d-block.text-light.mb-2,
+a.d-block.text-light {
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+body. {
+    padding-bottom: 60px; /* espaço para o footer não cobrir o conteúdo */
+}
+
+/* EQUIPAMENTOS  CSS */
+section.container-fluid {
+    margin-top: 150px;
+    background-color: #fff;
+    padding: 63px;
+    text-align: center;
+
+}
+.card {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+}
+section.container.py-5.contrato {
+    margin-top: 90px;
+
+}
+section.container.py-5.contrato p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+.card.contrato {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #D95555;
+}
+.card.contrato:hover {
+
+}
+div.card:hover {
+    background-color: #D95555;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    transition: 2s;
+}
+section.container-fluid.leitor {
+    margin-top:30px;
+    background-color: #F2F2F2;
+    padding: 40px;
+    text-align: center;
+
+}
+
+/* Area do cliente */
+.card.remoto {
+    border: 0px;
+
+
+}
+section.container-fluid.py-5.bg-white.empresa.mt-5.acessoremoto{
+    border: 0px;
+}
+div.card.remoto.shadow-sm.h-100{
+    border: 0px !important;
+}
+.card.remoto:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+/* contatos */
+ul.list-group.contato{
+    background-color: transparent;
+}
+
+form.needs-validation.w-50 {
+    margin: auto;
+    padding: 20px;
+}
